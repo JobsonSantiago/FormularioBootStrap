@@ -10,8 +10,8 @@
     <title>BootStrap</title>
     
 </head>
-<body class="bg-body-tertiary">
-    <div class="container text-center bg-body-tertiary">
+<body class="bg-body-secondary">
+    <div class="container text-center bg-body-secondary">
         <div class="row">
             <div class="col-1">
               &nbsp
@@ -25,8 +25,8 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
-                                <a class="nav-link" hfef="#">Consultar</a>
+                                <a class="nav-link active" aria-current="page" href="index.php">Cadastrar</a>
+                                <a class="nav-link active" aria-current="page" href="consultar.php">Consultar</a>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                 <p class ="text-start fs-5"> <b> Cadastrar - Agendamento de Potenciais Clientes </b> </p>
                 <p class ="text-start fs-6"> Sistema utilizado para agendamento de serviços </p>
                 <p>
-                  <form method = "POST" action="teste.class.php">
+                  <form method = "POST" action="consultar.php">
                         <div class="mb-1 text-start">
                             <label for="exampleinputEmail1" class="form-label">Nome:</label>
                             <input class="form-control" id="exampleinputEmail1" aria-describedby="emailHelp" name="nome" id="nome"><br>
@@ -68,8 +68,8 @@
                             <label for="exampleinputEmail1" class="form-label">Origem: </label>
                             <select class="form-select" aria-label="Default select example" name="origem" id="origem">
                                 <option selected>Celular</option>
-                                <option value="1">Whatsapp</option>
-                                <option value="2">Telefone Fixo</option>
+                                <option value="WhatsApp">Whatsapp</option>
+                                <option value="Telefone Fixo">Telefone Fixo</option>
                             </select>
                           </div>
                           <div class="mb-2 text-start">
